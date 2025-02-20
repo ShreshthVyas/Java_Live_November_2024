@@ -2,8 +2,8 @@ package Lecture29;
 
 public class Stack {
 	// All major function T.C - O(1)
-	private int arr[];
-	private int top = -1;
+	protected int arr[];
+	protected int top = -1;
 	
 	public Stack() {
 		this.arr = new int[5]; //default size 5
